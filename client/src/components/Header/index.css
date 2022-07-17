@@ -1,0 +1,27 @@
+#displayFlex{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 204, 84);
+}
+
+.header{
+    border-bottom: 3px solid black;
+}
+.middlePosition{
+    padding-left: 10em
+}
+
+
+.rightPosition{
+    /* position: fixed;
+    right: 20px; */
+  }
+
+.verticalCenter{
+    height: 2em;
+}
+
+.horizontalCenter{
+    padding-left: 10em;
+    height: 2em;
+}

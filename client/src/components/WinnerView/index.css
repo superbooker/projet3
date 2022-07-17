@@ -1,0 +1,7 @@
+#rcorners {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    /* width: 200px;
+    height: 150px; */
+  }
