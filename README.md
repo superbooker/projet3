@@ -20,6 +20,7 @@ Travail réalisé de base :
 * Déploiement sur Github Pages
 * Adaptation du site en fonction du compte utilisé
 * Utilisation des composants
+* Documentation générée et en ligne sur ipfs : https://ipfs.io/ipfs/QmNzK4cwTuF4AnPHUY5S4kUnSGt8FNLPyTgcSFoxJK9u9S
 
 ## Maquette artisanale de la Dapp
 
