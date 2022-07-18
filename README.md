@@ -4,7 +4,7 @@ Promo Ropsten : Développeur
 
 Ce projet est le 3eme TP à rendre pour la Promo Ropsten : Développeur.
 
-Video du workflow : 
+Video du workflow : https://youtu.be/m-57AvvF1cY (à écouter en x2 - désolé pour la lenteur de mon mac :( )
 
 Lien Github Pages : https://superbooker.github.io/projet3/
 
