@@ -44,7 +44,7 @@ function AddProposal(props) {
                     // console.log("addr " + address1 + " match " + regex.exec(str));
         
                     if(_proposition){
-        console.log("_proposition : " + _proposition);
+                      console.log("_proposition : " + _proposition);
                       // console.log("addr " + _proposition + " match " + regex.exec(str));
                       const response = await props.contract.methods.addProposal(_proposition).send({ from: props.accounts[0] });
 
