@@ -1,6 +1,6 @@
-const HDWalletProvider = require('../client/node_modules/@truffle/hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-require('../client/node_modules/dotenv').config();
+require('dotenv').config();
 
 module.exports = {
   contracts_build_directory: "../client/src/contracts",
@@ -10,10 +10,10 @@ module.exports = {
       port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
-    // ropsten:{
-    //   provider : function() {return new HDWalletProvider({mnemonic:{phrase:`${process.env.MNEMONIC}`},providerOrUrl:`https://ropsten.infura.io/v3/${process.env.INFURA_ID}`})},
-    //   network_id:3,
-    // },
+    ropsten:{
+      provider : function() {return new HDWalletProvider({mnemonic:{phrase:`${process.env.MNEMONIC}`},providerOrUrl:`https://ropsten.infura.io/v3/${process.env.INFURA_ID}`})},
+      network_id:3,
+    },
   },
 
   // Set default mocha options here, use special reporters, etc.
