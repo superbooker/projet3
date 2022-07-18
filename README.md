@@ -48,6 +48,40 @@ Ouvrir un terminal :
 10. cd ../client
 11. npm run start
 
+## Scénario de la vidéo
+
+1. Montrer le code
+2. Montrer la documentation de voting
+3. Montrer la maquette
+4. Montrer GitHub pages et Heroku
+
+Scénario :
+1. Montrer vue Admin
+2. Switch vue Non votant
+3. Tenter de changer de status de vote
+4. Admin : ajouter 3 votants
+5. Afficher information des votants
+6. Switch vue votant
+7. Switch vue non votant
+8. Switch admin : Avancer status suivant : ajout propositions
+9. Votant 1 ajoute proposition
+10. Votant 2 ajoute proposition
+11. Votant 3 ajoute proposition
+12. Afficher les détails des propositions
+13. Check votant 4
+14. Switch admin : Avancer status suivant : fin ajout proposition 
+15. Check des 4 comptes
+16. Switch admin : Avancer status suivant : Debut des votes
+17. Votant 1 vote
+18. Check de mon vote
+19. Votant 1 revote
+20. Switch votant 2
+21. Votant 2 vote
+22. Switch votant 3
+23. Votant 3 vote
+24. Switch admin : Avancer status suivant : Fin des votes
+25. Dépouillage
+26. Montrer le vainqueur
 
 
 ## License
